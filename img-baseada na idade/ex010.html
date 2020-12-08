@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculo de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>verificador de idade!</h1>
+    <header>
+        <section>
+            <p style="text-align: center;font-size: 20px;margin-top: -10px;">Informe seus dados</p>
+            <div>
+                <p>Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </p>
+                <p>sexo:
+                    <input type="radio" name="radsex" id="fem" checked> 
+                    <label for="fem">Feminino</label>
+                    <input type="radio" name="radsex" id="mas"> 
+                    <label for="mas">Masculino</label>
+                </p>
+                <p style="text-align: center;"><input type="button" value="verificador" onclick="verificador()"></p>
+            </div>
+            <p style="text-align: center;margin-bottom: -10px;" id = res>preencha os dados acima para ver o resultado!!        </p>
+           <p id= ress style="text-align: center;"></p>
+            </div>
+        </section>
+    
+
+    </header>
+    <script src="script.js"></script>
+    <footer><p>&COPY;rodrigo soluções de software</p></footer>
+    
+</body>
+</html>

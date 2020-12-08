@@ -1,0 +1,23 @@
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.61);
+}
+body{
+    background: #4db1df;
+}
+section{
+    background: white;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius:6px ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow:1px 1px 4px rgba(0, 0, 0, 0.836);
+    font: arial 30px ;
+}
